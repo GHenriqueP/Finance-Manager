@@ -11,6 +11,10 @@ export function NewTransactionModal() {
 
         <form action="">
           <input type="text" placeholder="Descrição" required />
+          <input type="number" placeholder="Preço" required />
+          <input type="text" placeholder="Categoria" required />
+
+          <button type="submit"></button>
         </form>
 
         <Dialog.Close />
