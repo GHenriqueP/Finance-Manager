@@ -1,1 +1,1 @@
-npx json-server server.json -p 3333 -w - Comando para rodar o Json Server
+npx json-server server.json -p 3333 -w -d 500 / Comando para rodar o Json Server
